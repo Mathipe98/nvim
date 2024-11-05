@@ -22,6 +22,7 @@ return {
 			"cpplint",
 			"markdownlint",
 			"pylint",
+			-- "eslint_d",
 
 			-- FORMATTERS --
 			"black",
