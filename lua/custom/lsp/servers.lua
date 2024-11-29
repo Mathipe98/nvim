@@ -83,7 +83,7 @@ local configs = {
 	powershell_es = {
 		bundle_path = require("mason-core.path").package_prefix("powershell-editor-services"),
 	},
-	basedpyright = {
+	pyright = {
 		analysis = {
 			-- venvPath = '/home/matp/.cache/pypoetry/virtualenvs',
 			autoSearchPaths = true,
