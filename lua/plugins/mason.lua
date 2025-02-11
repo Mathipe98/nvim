@@ -30,10 +30,11 @@ return {
 			"prettierd",
 			"stylua",
 			"shfmt",
-			--"csharpier",
+			"csharpier",
 
 			-- DEBUGGING --
 			"js-debug-adapter",
+			"netcoredbg",
 		}
 
 		require("mason-tool-installer").setup({

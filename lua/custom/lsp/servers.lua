@@ -71,15 +71,15 @@ local configs = {
 	-- 		return true
 	-- 	end,
 	-- },
-	-- omnisharp = {
-	-- 	cmd = { "omnisharp" },
-	-- 	enable_roslyn_analyzers = true,
-	-- 	enable_import_completion = true,
-	-- 	organize_imports_on_format = true,
-	-- 	handlers = {
-	-- 		["textDocument/definition"] = require("omnisharp_extended").handler,
-	-- 	},
-	-- },
+	omnisharp = {
+		cmd = { "omnisharp" },
+		enable_roslyn_analyzers = true,
+		enable_import_completion = true,
+		organize_imports_on_format = true,
+		handlers = {
+			["textDocument/definition"] = require("omnisharp_extended").handler,
+		},
+	},
 	powershell_es = {
 		bundle_path = require("mason-core.path").package_prefix("powershell-editor-services"),
 	},
