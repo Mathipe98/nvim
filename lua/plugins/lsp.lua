@@ -4,9 +4,9 @@ return {
 		dependencies = {
 			{ "nvim-telescope/telescope.nvim" },
 			{ "lbrayner/vim-rzip" },
-			{
-				"Hoffs/omnisharp-extended-lsp.nvim",
-			},
+			--{
+			--	"Hoffs/omnisharp-extended-lsp.nvim",
+			--},
 			{
 				"Decodetalkers/csharpls-extended-lsp.nvim",
 			},

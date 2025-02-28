@@ -30,7 +30,7 @@ return {
 			"prettierd",
 			"stylua",
 			"shfmt",
-			"csharpier",
+			-- "csharpier", don't install via Mason; works only when used as nix package
 
 			-- DEBUGGING --
 			"js-debug-adapter",
