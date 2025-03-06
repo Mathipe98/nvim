@@ -22,6 +22,7 @@ local configs = {
 			["textDocument/definition"] = require("csharpls_extended").handler,
 			["textDocument/typeDefinition"] = require("csharpls_extended").handler,
 		},
+		cmd = { "csharp-ls" },
 	},
 	gopls = {},
 	cssls = {},
